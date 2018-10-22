@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登录窗口 </title>
+<link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<button class="tc">点击登录</button>
+<div id="gray"></div>
+<div class="dl" id="dl">
+	<div class="top_nav" id='top_nav'>
+		<div align="center">
+			<span>登录账号</span>
+			<a class="guanbi"></a>
+		</div>
+	</div>
+	<div class="min">
+		<div class="tc_login">
+			<div class="left">
+				<h4 align="center">手机扫描</h4>
+				<div align="center"><img src="images/erweima.jpg" width="150" height="150" /></div>
+				<dd>
+					<div align="center">扫描二维码登录</div>
+				</dd>
+			</div>  
+			<div class="right">
+				<form method="POST" name="form_login" target="_top">
+					<div align="center">
+						<a href="">短信快捷登录</a>
+						<input type="text" name="name" id="name" required="required" placeholder="用户名" autocomplete="off" class="input_yh">
+						<input type="password" name="pass" id="pass" required="required" placeholder="密码" autocomplete="off" class="input_mm">
+					</div>
+					<div>
+						<a href="">遇到登录问题</a>
+					</div>
+					<div align="center">
+						<input type="submit" class="button" title="Sign In" value="登录">
+					</div>
+				</form>   
+				<div>
+					<a href="#" target="_blank">立即注册</a>
+				</div>
+				<hr align="center" />
+				<div align="center">期待更多功能 </div>
+			</div>		
+		</div>
+	</div>
+</div>
+<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+	$(".tc").click(function(){
+		$("#gray").show();
+		$("#dl").show();
+		tc_center();
+	});
+	
+	$(window).resize(function(){
+		tc_center();
+	});
+	function tc_center(){
+		var _top=($(window).height()-$(".dl").height())/2;
+		var _left=($(window).width()-$(".dl").width())/2;
+		$(".dl").css({top:_top,left:_left});
+	}	
+	</script>
+
+</div>
+</div>
+</body>
+</html>

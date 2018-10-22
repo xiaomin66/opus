@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+	<title>山西大学商务学院人事处</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		#main {
+			MARGIN: 15px auto 0px;
+			WIDTH: 960px;
+			FONT-SIZE: 9pt
+		}
+		
+		#logo {
+			BACKGROUND-IMAGE: url(img/logo.gif);
+			PADDING-BOTTOM: 15px;
+			BACKGROUND-REPEAT: no-repeat;
+			HEIGHT: 76px
+		}
+		
+		#nav {
+			BACKGROUND-IMAGE: url(img/nav_bg.gif);
+			TEXT-ALIGN: center;
+			LINE-HEIGHT: 32px;
+			BACKGROUND-REPEAT: repeat-x;
+			HEIGHT: 32px
+		}
+		
+		#nav A {
+			BACKGROUND-IMAGE: url(img/nav_line.gif);
+			PADDING-LEFT: 20px;
+			PADDING-RIGHT: 20px;
+			DISPLAY: inline-block;
+			BACKGROUND-REPEAT: no-repeat;
+			BACKGROUND-POSITION: right 50%;
+			COLOR: #fff;
+			FONT-SIZE: 14px;
+			FONT-WEIGHT: bold;
+			TEXT-DECORATION: none
+		}
+		
+		#top_pic {
+			BACKGROUND-IMAGE: url(img/big_img.gif);
+			WIDTH: 960px;
+			BACKGROUND-REPEAT: no-repeat;
+			HEIGHT: 233px
+		}
+		
+		#left {
+			WIDTH: 212px;
+			FLOAT: left
+		}
+		
+		#zp_tit {
+			BACKGROUND-IMAGE: url(img/left_tit_bg.gif);
+			LINE-HEIGHT: 28px;
+			TEXT-INDENT: 32px;
+			HEIGHT: 26px;
+			COLOR: #c00;
+			FONT-SIZE: 14px;
+			FONT-WEIGHT: bold
+		}
+		
+		#xwdt_tit {
+			BACKGROUND-IMAGE: url(img/tit_bg.gif);
+			LINE-HEIGHT: 30px;
+			WIDTH: 365px;
+			BACKGROUND-REPEAT: no-repeat;
+			HEIGHT: 26px;
+			COLOR: #c00;
+			FONT-SIZE: 14px;
+			FONT-WEIGHT: bold
+		}
+		
+		#zp_nr {
+			BORDER-BOTTOM: #fe0400 1px solid;
+			BORDER-LEFT: #fe0400 1px solid;
+			HEIGHT: 165px;
+			OVERFLOW: hidden;
+			BORDER-TOP: #fe0400 0px solid;
+			BORDER-RIGHT: #fe0400 1px solid
+		}
+		
+		#xwdt_tit SPAN {
+			PADDING-LEFT: 30px
+		}
+		
+		#foot_top {
+			TEXT-ALIGN: center;
+			LINE-HEIGHT: 25px;
+			BACKGROUND-COLOR: #b70000;
+			MARGIN-TOP: 10px;
+			COLOR: #fff
+		}
+		
+		#foot_btm {
+			TEXT-ALIGN: center;
+			LINE-HEIGHT: 30px;
+			COLOR: #666;
+			PADDING-TOP: 10px
+		}
+		
+		.more {
+			PADDING-RIGHT: 10px;
+			FONT-SIZE: 12px;
+			FONT-WEIGHT: normal
+		}
+		
+		#xwdt {
+			WIDTH: 365px;
+			FLOAT: left;
+			OVERFLOW: hidden
+		}
+		
+		.white {
+			COLOR: #fff;
+			TEXT-DECORATION: none
+		}
+		
+		EM {
+			FONT-STYLE: normal
+		}
+		
+		I {
+			FONT-STYLE: normal
+		}
+		
+		U {
+			FONT-STYLE: normal
+		}
+		
+		UL {
+			LIST-STYLE-TYPE: none;
+			LIST-STYLE-IMAGE: none
+		}
+		
+		OL {
+			LIST-STYLE-TYPE: none;
+			LIST-STYLE-IMAGE: none
+		}
+		
+		LI {
+			LIST-STYLE-TYPE: none;
+			LIST-STYLE-IMAGE: none
+		}
+		
+		DL {
+			LIST-STYLE-TYPE: none;
+			LIST-STYLE-IMAGE: none
+		}
+		
+		DT {
+			LIST-STYLE-TYPE: none;
+			LIST-STYLE-IMAGE: none
+		}
+		
+		DD {
+			LIST-STYLE-TYPE: none;
+			LIST-STYLE-IMAGE: none
+		}
+		
+		BODY {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		H1 {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		H2 {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		H3 {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		H4 {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		H5 {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		H6 {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		DIV {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		HR {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		P {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		BLOCKQUOTE {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		DL {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		DT {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		DD {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		UL {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		OL {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		LI {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		PRE {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		FORM {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		FIELDSET {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		LEGEND {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		BUTTON {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		INPUT {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		TEXTAREA {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		TH {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		TD {
+			PADDING-BOTTOM: 0px;
+			MARGIN: 0px;
+			PADDING-LEFT: 0px;
+			PADDING-RIGHT: 0px;
+			PADDING-TOP: 0px
+		}
+		
+		#right {
+			PADDING-LEFT: 10px;
+			WIDTH: 738px;
+			FLOAT: left;
+			OVERFLOW: hidden
+		}
+		
+		#dh {
+			TEXT-ALIGN: right;
+			LINE-HEIGHT: 30px;
+			BACKGROUND-COLOR: #efefef;
+			PADDING-RIGHT: 20px;
+			COLOR: #333
+		}
+		
+		#wz_nr {
+			LINE-HEIGHT: 20px;
+			COLOR: #333;
+			FONT-SIZE: 14px;
+			PADDING-TOP: 20px
+		}
+		
+		#wz_tit {
+			TEXT-ALIGN: center;
+			LINE-HEIGHT: 40px;
+			COLOR: #c30;
+			FONT-SIZE: 14px;
+			FONT-WEIGHT: bold
+		}
+		
+		#wz_date {
+			TEXT-ALIGN: center;
+			LINE-HEIGHT: 30px;
+			BACKGROUND-COLOR: #efefef;
+			COLOR: #666;
+			BORDER-TOP: #c30 1px solid
+		}
+		
+		#wz LI {
+			BACKGROUND-IMAGE: url(img/arrow.gif);
+			BORDER-BOTTOM: #f47a00 1px dashed;
+			LINE-HEIGHT: 30px;
+			PADDING-LEFT: 18px;
+			BACKGROUND-REPEAT: no-repeat;
+			BACKGROUND-POSITION: 0px 50%
+		}
+		
+		#wz A:hover {
+			COLOR: #c30;
+			TEXT-DECORATION: none
+		}
+		
+		#pg {
+			TEXT-ALIGN: center;
+			PADDING-BOTTOM: 10px;
+			LINE-HEIGHT: 30px;
+			PADDING-LEFT: 10px;
+			PADDING-RIGHT: 10px;
+			PADDING-TOP: 10px
+		}
+		
+		#wz {
+			PADDING-BOTTOM: 10px;
+			PADDING-LEFT: 10px;
+			PADDING-RIGHT: 10px;
+			PADDING-TOP: 10px
+		}
+		
+		#zp_nr LI {
+			BACKGROUND-IMAGE: url(img/arrow.gif);
+			LINE-HEIGHT: 25px;
+			PADDING-LEFT: 15px;
+			BACKGROUND-REPEAT: no-repeat;
+			BACKGROUND-POSITION: 0px 50%
+		}
+		
+		#zp_nr {
+			BACKGROUND-COLOR: #fcfbe6
+		}
+		
+		#xwdt_nr UL {
+			PADDING-BOTTOM: 5px;
+			PADDING-TOP: 5px
+		}
+		
+		#xwdt_nr A:hover {
+			COLOR: #c30;
+			TEXT-DECORATION: none
+		}
+		
+		#xwdt_nr LI {
+			BACKGROUND-IMAGE: url(img/arrow.gif);
+			BORDER-BOTTOM: #efa850 1px dashed;
+			LINE-HEIGHT: 25px;
+			PADDING-LEFT: 15px;
+			BACKGROUND-REPEAT: no-repeat;
+			BACKGROUND-POSITION: 0px 50%
+		}
+		
+		#zp_nr UL {
+			PADDING-BOTTOM: 5px;
+			PADDING-LEFT: 10px;
+			PADDING-RIGHT: 10px;
+			PADDING-TOP: 5px
+		}
+		
+		A {
+			COLOR: #333;
+			TEXT-DECORATION: none
+		}
+		
+		.fr {
+			FLOAT: right;
+			MARGIN-RIGHT: 10px
+		}
+	</style>
+</head>
+
+<body>
+
+	<div id="main">
+
+		<div id="top">
+			<div id="logo"></div>
+			<div id="nav">
+				<a href="index.htm">首页</a>
+				<a href="bmjs/index.htm">部门概况</a>
+				<a href="zcfg/index.htm">政策法规</a>
+				<a href="zcps/index.htm">职称评审</a>
+				<a href="bslc/index.htm">办事流程</a>
+				<a href="zpxx/index.htm">招聘信息</a>
+				<a href="xzzx/index.htm">下载中心</a>
+				<a href="mailto:sdsyrsk8199@163.com">联系我们</a>
+				<a href="xxzl/index.htm">学习培训</a>
+			</div>
+		</div>
+		<div style="height:10px"></div>
+		<div id="top_pic"> </div>
+		<div style="height:10px"></div>
+		<div id="sub">
+
+			<div id="left">
+				<div id="zpxx">
+					<div id="zp_tit">招聘信息</div>
+					<div id="zp_nr">
+						<ul>
+							<li>
+								<a href="docs/20140307144217150013.doc"> 山西大学商务学院2014年...
+								</a>
+							</li>
+							<li>
+								<a href="zpxx/2306.htm"> 2011年山西大学商务学院...
+								</a>
+							</li>
+							<li>
+								<a href="zpxx/1341.htm"> 山西大学商务学院2011年...
+								</a>
+							</li>
+						</ul>
+						<a href="zpxx/index.htm" class="fr">更多</a>
+					</div>
+				</div>
+				<div style="height:10px"></div>
+				<div id="link">
+					<div id="zp_tit">友情链接</div>
+					<div id="zp_nr">
+						<ul>
+							<li>
+								<a href="http://www.ceat.edu.cn/"> 中国教育干部培训网
+								</a>
+							</li>
+							<li>
+								<a href="http://www.moe.edu.cn/"> 教育部
+								</a>
+							</li>
+							<li>
+								<a href="http://www.mohrss.gov.cn/Desktop.aspx?PATH=rsbww/sy"> 人力资源与社会保障部
+								</a>
+							</li>
+							<li>
+								<a href="http://www.sxedu.gov.cn/"> 山西省教育厅
+								</a>
+							</li>
+							<li>
+								<a href="http://www.sx.hrss.gov.cn/"> 山西省人力资源与社会保障厅
+								</a>
+							</li>
+						</ul>
+						<a href="xglj/index.htm" class="fr">更多</a>
+					</div>
+				</div>
+			</div>
+			<div id="right">
+				<div id="xwdt">
+					<div id="xwdt_tit">
+						<a href="xwdt/index.htm" class="fr more white">更多</a><span>新闻动态</span></div>
+					<div id="xwdt_nr">
+						<ul>
+							<li><i class="fr">2015-02-13</i>
+								<a href="xwdt/13197.htm"> 山西大学商务学院开展春节慰问离退休职工活动...
+								</a>
+							</li>
+							<li><i class="fr">2014-10-08</i>
+								<a href="xwdt/10734.htm"> 我院开展“喜迎国庆、欢度重阳”离退休老同志...
+								</a>
+							</li>
+							<li><i class="fr">2012-09-11</i>
+								<a href="xwdt/3364.htm"> 我院举行2012年新聘员工岗前培训
+								</a>
+							</li>
+							<li><i class="fr">2012-05-23</i>
+								<a href="xwdt/3167.htm"> 我院举办教职工岗位技能计算机应用能力培训
+								</a>
+							</li>
+							<li><i class="fr">2012-05-11</i>
+								<a href="xwdt/3122.htm"> 我院组织老干部一行赴平遥参观游览
+								</a>
+							</li>
+							<li><i class="fr">2011-10-21</i>
+								<a href="xwdt/2479.htm"> 我院举行2011年老干部座谈会
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="xwdt" style="margin-left:8px">
+					<div id="xwdt_tit">
+						<a href="tzgg/index.htm" class="fr more white">更多</a><span>通知公告</span></div>
+					<div id="xwdt_nr">
+						<ul>
+							<li><i class="fr">2017-03-14</i>
+								<a href="tzgg/31412.htm"> 关于2016年高校教师岗前培训之网络培训考...
+								</a>
+							</li>
+							<li><i class="fr">2016-12-30</i>
+								<a href="tzgg/30332.htm"> 我院召开2016年度行政、教辅部门工作任务...
+								</a>
+							</li>
+							<li><i class="fr">2016-12-30</i>
+								<a href="tzgg/30331.htm"> 关于2016年高校教师岗前培训之网络培训的...
+								</a>
+							</li>
+							<li><i class="fr">2016-12-30</i>
+								<a href="tzgg/30304.htm"> 关于公布《山西省商务学校关于机关事业单位养...
+								</a>
+							</li>
+							<li><i class="fr">2016-11-30</i>
+								<a href="tzgg/28802.htm"> 山西省教育厅关于2016年高校教师高级职务...
+								</a>
+							</li>
+							<li><i class="fr">2016-11-30</i>
+								<a href="tzgg/28801.htm"> 山西省教育厅关于举办全省教师管理信息系统部...
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div style="height:10px; clear:both;"></div>
+				<div id="xwdt">
+					<div id="xwdt_tit">
+						<a href="zcfg/index.htm" class="fr more white">更多</a><span>政策法规</span></div>
+					<div id="xwdt_nr">
+						<ul>
+							<li><i class="fr">2016-09-26</i>
+								<a href="zcfg/25884.htm"> 山西省图书资料系列中级专业技术职务任职资格...
+								</a>
+							</li>
+							<li><i class="fr">2016-09-26</i>
+								<a href="zcfg/25883.htm"> 山西省图书资料系列高级专业技术职务任职资格...
+								</a>
+							</li>
+							<li><i class="fr">2016-09-26</i>
+								<a href="zcfg/25879.htm"> 山西省人力资源和社会保障厅关于做好2016...
+								</a>
+							</li>
+							<li><i class="fr">2016-07-01</i>
+								<a href="zcfg/24553.htm"> 转发：太原市住房公积金管理中心《关于做好2...
+								</a>
+							</li>
+							<li><i class="fr">2016-04-29</i>
+								<a href="zcfg/22274.htm"> 国家卫生计生委关于贯彻落实中共中央 国务院...
+								</a>
+							</li>
+							<li><i class="fr">2016-04-29</i>
+								<a href="zcfg/22273.htm"> 山西省人口和计划生育条例
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div id="xwdt" style="margin-left:8px">
+					<div id="xwdt_tit">
+						<a href="bslc/index.htm" class="fr more white">更多</a><span>办事流程</span></div>
+					<div id="xwdt_nr">
+						<ul>
+							<li><i class="fr">2015-11-27</i>
+								<a href="bslc/19104.htm"> 专业技术职务评审管理流程
+								</a>
+							</li>
+							<li><i class="fr">2015-11-27</i>
+								<a href="bslc/19103.htm"> 进修培训管理流程
+								</a>
+							</li>
+							<li><i class="fr">2015-11-27</i>
+								<a href="bslc/19102.htm"> 初级专业技术职务评审管理流程
+								</a>
+							</li>
+							<li><i class="fr">2015-10-22</i>
+								<a href="bslc/17928.htm"> 教职工退休审批流程
+								</a>
+							</li>
+							<li><i class="fr">2015-10-22</i>
+								<a href="bslc/17927.htm"> 教职工学历教育申请程序
+								</a>
+							</li>
+							<li><i class="fr">2015-10-22</i>
+								<a href="bslc/17926.htm"> 工作证制作管理流程
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+
+		<div id="foot">
+			<div id="foot_top">&nbsp;</div>
+			<div id="foot_btm">版权所有　山西大学商务学院人事处</div>
+		</div>
+	</div>
+
+</body>
+
+</html>
